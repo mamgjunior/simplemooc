@@ -59,6 +59,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="187" key="SettingsEditor" timestamp="1599815419726">
