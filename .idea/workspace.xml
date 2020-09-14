@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14d486ae-bff1-473e-85eb-2ed3b8aeec28" name="Default Changelist" comment="" />
+    <list default="true" id="14d486ae-bff1-473e-85eb-2ed3b8aeec28" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
