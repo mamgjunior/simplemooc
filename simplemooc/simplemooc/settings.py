@@ -123,5 +123,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# Local onde ficaram os arquivos de imagens
+# Local onde ficarão os arquivos de imagens
 MEDIA_ROOT = os.path.join(BASE_DIR, 'simplemooc', 'media')
