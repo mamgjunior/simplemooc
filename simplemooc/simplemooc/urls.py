@@ -19,6 +19,7 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(('simplemooc.core.urls', 'app_name'), namespace='core')),
+    path('cursos/', include(('simplemooc.courses.urls', 'app_name'), namespace='courses')),
 ]
 
 # Para usar namespace de forma correta:
