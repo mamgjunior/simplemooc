@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+
 from .models import Course
 
 
@@ -12,7 +13,7 @@ def index(request):
 
 
 def details(request, pk):
-    course = Course.object.get(pk=pk)
+    course = get_object_or_404(Course, pk=pk)
     template_name = "courses/details.html"
     context = {"course": course}
     return render(request, template_name, context)
