@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14d486ae-bff1-473e-85eb-2ed3b8aeec28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/templates/courses/details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/courses/views.py" afterDir="false" />
     </list>
