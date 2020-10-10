@@ -1,18 +1,19 @@
-from django.contrib.auth.forms import UserCreationForm
-from django.shortcuts import render, redirect
 from django.conf import settings
+from django.shortcuts import render, redirect
+
+from .form import RegisterForm
 
 
 # Create your views here.
 
 def register(request):
     if request.method == 'POST':
-        form = UserCreationForm(request.POST)
+        form = RegisterForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect(settings.LOGIN_URL)
     else:
-        form = UserCreationForm()
+        form = RegisterForm()
 
     template_name = 'accounts/register.html'
     context = {'form': form}
