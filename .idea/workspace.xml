@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="14d486ae-bff1-473e-85eb-2ed3b8aeec28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/core/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simplemooc/simplemooc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simplemooc/simplemooc/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +55,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/simplemooc/simplemooc/accounts/templates/registration" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
