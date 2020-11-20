@@ -1,9 +1,12 @@
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, get_user_model
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth.forms import PasswordChangeForm
-from django.shortcuts import render, redirect
+from django.contrib.auth.forms import PasswordChangeForm, SetPasswordForm
+from django.shortcuts import render, redirect, get_object_or_404
 
-from .form import RegisterForm, EditAccountForm
+from .form import RegisterForm, EditAccountForm, PasswordResetForm
+from .models import PasswordReset
+
+User = get_user_model()
 
 
 # Create your views here.
@@ -27,6 +30,29 @@ def register(request):
 
     template_name = 'accounts/register.html'
     context = {'form': form}
+    return render(request, template_name, context)
+
+
+def password_reset(request):
+    template_name = "accounts/password_reset.html"
+    context = {}
+    form = PasswordResetForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+        context["success"] = True
+    context["form"] = form
+    return render(request, template_name, context)
+
+
+def password_reset_confirm(request, key):
+    template_name = "accounts/password_reset_confirm.html"
+    context = {}
+    reset = get_object_or_404(PasswordReset, key=key)
+    form = SetPasswordForm(user=reset.user, data=request.POST or None)
+    if form.is_valid():
+        form.save()
+        context["success"] = True
+    context["form"] = form
     return render(request, template_name, context)
 
 
