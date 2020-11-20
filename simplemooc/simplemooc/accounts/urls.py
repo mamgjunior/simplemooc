@@ -9,6 +9,7 @@ urlpatterns = [
     # path('sair/', '', name="logout"),
     path('cadastre-se/', register, name="register"),
     path('nova-senha/', password_reset, name="password_reset"),
+    re_path('confirmar-nova-senha/(?P<key>[\w]+)/', password_reset_confirm, name="password_reset_confirm"),
     path('editar/', edit, name="edit"),
     path('editar-senha/', edit_password, name="edit_password"),
 ]
